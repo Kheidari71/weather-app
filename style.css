@@ -105,6 +105,34 @@ a:hover, a:visited, a:link, a:active{
     margin:10px 0;
     font-size:20px;
   }
-
-
+  .container-fluid, body {
+    overflow-x: hidden;
+}
+  @media screen and (max-width:576px) {
+    .inputs {
+        padding: 2rem 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Vertically center the input and button */
+    }
+    
+    .inputs input[type="text"] {
+        height: 3.5rem;
+        width: 70%; /* Use percentage for responsive width */
+        /* ... other styles ... */
+    }
+    
+    .inputs input[type="submit"] {
+        height: 3.5rem;
+        width: 20%; /* Use percentage for responsive width */
+        /* ... other styles ... */
+    }
+    #add{
+        font-size: 90%;
+    }
+    #cityInput{
+        font-size: 90%;
+    }
+    }
   
